@@ -27,12 +27,12 @@ wire [63:0] R;
 signbit32 mm1(.a(A), .b(B), .p(R));
 initial
 begin
-A = -12;
+A = 12;
 
 B = 4;
 
 #50;
-A = -3; B = -4;  
+A = 3; B = 4;  
 end
 endmodule
 
